@@ -43,7 +43,7 @@ function countDown() {
  if (currentTime == 0) {
    clearInterval(countDownTimerId)
    clearInterval(timerId)
-   alert('GAME OVER! Your final score is ' + result)
+   alert('GAME OVER! Corona is everywhere now… You only got hold of Scholz ' + result + ' times.')
  }
 
 }
