@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url(./WorkSans-VariableFont_wght.ttf);
+  font-weight: 600;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5em;
+  background-color: rgb(255 239 240);
+  color: #313131;
+  font-family: "WorkSans";
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+	margin-top: 3em;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.scoreboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3em;
+  gap: 5em;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background: rgb(227 0 15);
+  box-shadow: rgb(135 11 11) 0px 30px 60px -12px inset,
+    rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+}
+
+.scholz0 {
+  background-image: url("scholz1.png");
+  background-size: cover;
+}
+
+.scholz1 {
+  background-image: url("scholz2.png");
+  background-size: cover;
+}
+
+.scholz2 {
+  background-image: url("scholz3.png");
+  background-size: cover;
+}
