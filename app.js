@@ -43,7 +43,7 @@ function countDown() {
  if (currentTime == 0) {
    clearInterval(countDownTimerId)
    clearInterval(timerId)
-   alert('GAME OVER! Corona is everywhere now… You only got hold of Scholz ' + result + ' times.')
+   alert('Zeit vorbei! Corona ist jetzt überall aber Olaf ist immer noch tiefen-entspant. Du hast ihn nur ' + result + ' angetroffen.')
  }
 
 }
